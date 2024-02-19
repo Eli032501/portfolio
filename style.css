@@ -1,32 +1,38 @@
+:root {
+  --primary-color: cadetblue;
+  --secondary-color: #f9f7fe;
+  --text-color: rgb(7, 30, 49);
+  --third-color: rgba(13, 45, 72, 0.683);
+  --heading-font-family: "Questrial", sans-serif;
+  --default-font-family: "Noto Serif KR", serif;
+  --border-radius: 2px;
+}
 * {
   margin: 0;
   padding: 0;
-  font-family: "Noto Serif KR", serif;
+  font-family: var(--default-font-family);
   box-sizing: border-box;
 }
-:root {
-  --border-radius: 2px;
-}
-
 body {
-  background-color: cadetblue;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 nav {
   height: 60px;
 }
 h1 {
-  font-family: "Questrial", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 80px;
 }
 
 .my-logo {
   width: 66px;
-  font-family: "Questrial", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 20px;
   padding: 14px 22px;
   align-items: center;
-  background-color: aliceblue;
+  background-color: var(--secondary-color);
   border-radius: var(--border-radius);
 }
 .links-menu {
@@ -37,9 +43,9 @@ h1 {
   padding: 0 30px;
 }
 .links-menu a {
-  font-family: "Questrial", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 16px;
-  color: aliceblue;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .links-menu a:hover {
@@ -55,14 +61,14 @@ h1 {
 }
 .hero-left {
   border-radius: var(--border-radius);
-  background-color: aliceblue;
+  background-color: var(--secondary-color);
   width: 56vw;
   height: 234px;
 }
 .subtitle-hero {
-  font-family: "Questrial", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 28px;
-  color: rgba(13, 45, 72, 0.683);
+  color: var(--third-color);
 }
 .button-hero {
   position: relative;
@@ -71,16 +77,16 @@ h1 {
   width: 550px;
 }
 .button-hero:hover {
-  background-color: aliceblue;
-  color: rgba(13, 45, 72);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 .button-template {
-  background-color: rgba(13, 45, 72, 0.683);
-  color: aliceblue;
+  background-color: var(--third-color);
+  color: var(--secondary-color);
   display: block;
   border-radius: var(--border-radius);
   font-size: 20px;
-  font-family: "Questrial", sans-serif;
+  font-family: var(--heading-font-family);
   padding: 20px;
 }
 
