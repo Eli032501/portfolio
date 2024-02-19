@@ -14,16 +14,17 @@ body {
 
 nav {
   height: 60px;
-  margin-bottom: 4px;
 }
 h1 {
   font-family: "Questrial", sans-serif;
   font-size: 80px;
 }
+
 .my-logo {
-  font-family: "Questrial", sans-serif;
   width: 66px;
-  padding: 18px;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  padding: 14px 22px;
   align-items: center;
   background-color: aliceblue;
   border-radius: var(--border-radius);
@@ -36,6 +37,7 @@ h1 {
   padding: 0 30px;
 }
 .links-menu a {
+  font-family: "Questrial", sans-serif;
   font-size: 16px;
   color: aliceblue;
   text-decoration: none;
@@ -49,32 +51,47 @@ h1 {
   width: 100%;
   height: 640px;
   position: relative;
-  padding: 0 70px;
+  padding: 0 68px;
 }
 .hero-left {
   border-radius: var(--border-radius);
   background-color: aliceblue;
   width: 56vw;
-  height: 280px;
-  padding: 40px 80px 0px 80px;
+  height: 234px;
+}
+.subtitle-hero {
+  font-family: "Questrial", sans-serif;
+  font-size: 28px;
+  color: rgba(13, 45, 72, 0.683);
+}
+.button-hero {
+  position: relative;
+  top: 176px;
+  left: -68px;
+  width: 550px;
+}
+.button-hero:hover {
+  background-color: aliceblue;
+  color: rgba(13, 45, 72);
+}
+.button-template {
+  background-color: rgba(13, 45, 72, 0.683);
+  color: aliceblue;
+  display: block;
+  border-radius: var(--border-radius);
+  font-size: 20px;
+  font-family: "Questrial", sans-serif;
+  padding: 20px;
 }
 
-.button-template {
-  display: block;
-  background-color: cadetblue;
-  border-radius: var(--border-radius);
-  margin-top: 36px;
-  font-family: "Questrial", sans-serif;
-  padding: 10px;
-}
 .hero-right {
   border-radius: var(--border-radius);
   width: 34vw;
   height: 330px;
   position: relative;
   right: 0;
-  padding-left: 8px;
-  top: 288px;
+  padding-left: 4px;
+  top: 238px;
 }
 .hero-right img {
   object-fit: cover;
