@@ -28,9 +28,10 @@ h2 {
   text-transform: capitalize;
   font-size: 40px;
   margin-left: 8px;
+  padding-top: 10px;
 }
 h3 {
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-size: 34px;
 }
 .my-logo {
@@ -181,7 +182,9 @@ h3 {
   h1 {
     font-size: 54px;
   }
-
+  h2 {
+    font-size: 38px;
+  }
   .links-menu a {
     font-size: 14px;
   }
@@ -204,6 +207,10 @@ h3 {
     margin-right: 0px;
     top: 38px;
   }
+  h2 {
+    font-size: 34px;
+    text-align: center;
+  }
 }
 @media (max-width: 576px) {
   .page-hero {
@@ -213,6 +220,7 @@ h3 {
   h1 {
     font-size: 40px;
   }
+
   .hero-left {
     border-end-end-radius: 0;
     border-start-end-radius: 0;
