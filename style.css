@@ -27,7 +27,7 @@ h1 {
 h2 {
   text-transform: capitalize;
   font-size: 40px;
-  margin-left: 74px;
+  margin-left: 8px;
 }
 h3 {
   text-transform: lowercase;
@@ -122,6 +122,11 @@ h3 {
   left: 0;
   top: -66px;
 }
+.square-top2 {
+  position: relative;
+  left: 0;
+  top: 64px;
+}
 .image-border-right {
   border-radius: 0 var(--border-radius-prj) var(--border-radius-prj) 0;
 }
@@ -188,9 +193,6 @@ h3 {
   }
   .button-hero {
     margin-right: 66px;
-  }
-  .square-bottom2 {
-    top: 64px;
   }
 }
 @media (max-width: 768px) {
