@@ -32,10 +32,10 @@ h2 {
 }
 
 .line-section-top {
-  border-top: var(--third-color) solid 1px;
+  border-top: var(--secondary-color) solid 1px;
 }
 .line-section-bottom {
-  border-bottom: var(--secondary-color) solid 1px;
+  border-bottom: var(--third-color) solid 1px;
 }
 h3 {
   text-transform: capitalize;
@@ -48,7 +48,7 @@ footer {
   border-top: solid 1px var(--third-color);
 }
 footer p {
-  font-size: 12px;
+  font-size: 11px;
 }
 .my-logo {
   width: 66px;
@@ -242,18 +242,20 @@ footer p {
   }
 }
 @media (max-width: 768px) {
-  .button-hero {
-    margin-right: 0px;
-    top: 38px;
-  }
   h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
   p {
     font-size: 14px;
+  }
+  .button-hero {
+    margin-right: 0px;
+    top: 38px;
+    font-size: 18px;
+    padding: 14px;
   }
   .button-prj {
     font-size: 16px;
@@ -271,7 +273,7 @@ footer p {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   h3 {
@@ -282,15 +284,21 @@ footer p {
     border-end-end-radius: 0;
     border-start-end-radius: 0;
   }
+  .button-hero {
+    margin-right: 0px;
+    top: 38px;
+    font-size: 16px;
+    padding: 12px;
+  }
   .text-prj-lf,
   .text-prj-rt {
-    width: 380px;
     text-align: justify;
-    margin: 60px auto 30px;
+    margin: 50px 40px 30px;
     text-align: justify;
   }
+
   .button-prj {
     margin: 0 auto;
-    width: 380px;
+    width: 270px;
   }
 }
