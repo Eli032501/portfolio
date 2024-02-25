@@ -48,7 +48,7 @@ footer {
   border-top: solid 1px var(--third-color);
 }
 footer p {
-  font-size: 11px;
+  font-size: 12px;
 }
 .my-logo {
   width: 66px;
@@ -300,5 +300,8 @@ footer p {
   .button-prj {
     margin: 0 auto;
     width: 270px;
+  }
+  footer p {
+    font-size: 10px;
   }
 }
