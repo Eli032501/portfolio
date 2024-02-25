@@ -21,14 +21,19 @@ body {
 nav {
   height: 60px;
 }
+
 h1 {
   font-size: 80px;
 }
 h2 {
   text-transform: capitalize;
-  font-size: 40px;
-  margin-left: 8px;
-  padding-top: 10px;
+  color: #f9f7feee;
+  font-size: 34px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0px 0px 70px;
+  border-bottom: solid 1px #f9f7fe;
+  border-top: solid 1px #f9f7fe;
 }
 h3 {
   text-transform: capitalize;
@@ -58,8 +63,7 @@ h3 {
   text-decoration-thickness: 1px;
 }
 .page-hero {
-  height: 90vh;
-  margin-bottom: 40px;
+  margin-bottom: 130px;
 }
 .hero-left {
   padding: 40px;
@@ -136,21 +140,16 @@ h3 {
 }
 .img-projects {
   padding: 0;
-  height: 66vh;
+  height: 40vh;
 }
 .text-prj-lf {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  text-align: right;
-  margin: 0 20px 0 80px;
+  text-align: end;
+  margin: 0 110px 54px 80px;
 }
 .text-prj-rt {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  margin: 0 80px 0 20px;
+  margin: 0 80px 54px 110px;
 }
+
 .button-prj {
   position: relative;
   left: 0;
@@ -174,8 +173,14 @@ h3 {
   .links-menu {
     margin-right: 30px;
   }
-  .page-hero {
-    margin-bottom: 20px;
+  .text-prj-lf {
+    margin-right: 100px;
+  }
+  .text-prj-rt {
+    margin-left: 100px;
+  }
+  .img-projects {
+    height: 32vh;
   }
 }
 @media (max-width: 992px) {
@@ -197,12 +202,18 @@ h3 {
   .button-hero {
     margin-right: 66px;
   }
+  .text-prj-lf {
+    margin: 0 84px 30px 30px;
+  }
+  .text-prj-rt {
+    margin: 0 30px 30px 84px;
+  }
+  .button-prj {
+    font-size: 16px;
+    padding: 14px;
+  }
 }
 @media (max-width: 768px) {
-  .page-hero {
-    max-height: 68vh;
-    margin-bottom: 40px;
-  }
   .button-hero {
     margin-right: 0px;
     top: 38px;
@@ -211,12 +222,20 @@ h3 {
     font-size: 34px;
     text-align: center;
   }
+  h3 {
+    text-align: center;
+  }
+  .text-prj-lf,
+  .text-prj-rt {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .p-text-prj {
+    margin: 0 40px;
+  }
 }
 @media (max-width: 576px) {
-  .page-hero {
-    max-height: 55vh;
-    margin-bottom: 20px;
-  }
   h1 {
     font-size: 40px;
   }
