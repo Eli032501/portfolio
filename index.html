@@ -44,6 +44,9 @@
             <a href="">work</a>
             <a href="">contact</a>
           </div>
+          <div class="d-block d-md-none col-1">
+            <i class="fa-solid fa-bars fa-lg" style="color: #ffffff"></i>
+          </div>
         </div>
       </nav>
       <section class="page-hero">
@@ -86,8 +89,12 @@
     </header>
 
     <main>
-      <h2>my recent projects</h2>
-      <section class="container-fluid">
+      <div class="row g-0 justify-content-end">
+        <div class="col line-section-top"></div>
+        <h2 class="col-3">recent projects</h2>
+        <div class="col line-section-bottom"></div>
+      </div>
+      <section class="container-fluid py-5">
         <!-- PROJECT 1 -->
         <article class="row align-items-center">
           <div class="col-sm img-projects d-none d-sm-block">
@@ -118,7 +125,7 @@
           </div>
         </article>
         <!-- PROJECT 2 -->
-        <article class="my-2 row flex-row-reverse align-items-center">
+        <article class="my-4 row flex-row-reverse align-items-center">
           <div class="col-sm img-projects d-none d-sm-block">
             <img
               src="images/prj2.png"
@@ -177,6 +184,9 @@
         </article>
       </section>
     </main>
+    <footer>
+      <p>© Eliana Pereira Portfolio 2024 All rights reserved</p>
+    </footer>
   </body>
   <script src="script.js"></script>
 </html>
