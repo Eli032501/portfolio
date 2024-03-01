@@ -84,21 +84,19 @@ footer p {
 }
 
 /* Other pages - chenge color menu */
-.menu-about-page {
-  background: var(--text-color);
-}
+
 .link-color-other-pages a {
-  color: var(--third-color);
+  color: var(--secondary-color);
 }
 .link-color-other-pages a:hover {
-  color: var(--primary-color);
+  color: var(--third-color);
 }
 /* Other pages - ------- */
 .page-hero {
   margin-bottom: 130px;
 }
 .hero-left {
-  padding: 40px;
+  padding: 40px 40px 40px 80px;
   border-radius: var(--border-radius-small);
   border: var(--secondary-color) solid 1px;
 }
@@ -118,18 +116,19 @@ footer p {
   height: 100%;
   border-radius: var(--border-radius-small);
 }
-
-.button-hero {
-  display: block;
+.button-template {
   border-radius: var(--border-radius-small);
-  position: relative;
-  left: 0;
-  top: 130px;
   margin-right: 132px;
   font-size: 20px;
   padding: 16px;
-  background-color: var(--third-color);
+  display: block;
+}
+.button-hero {
   color: var(--text-color);
+  position: relative;
+  left: 0;
+  top: 130px;
+  background-color: var(--third-color);
 }
 .button-hero:hover {
   background-color: var(--primary-color);
@@ -208,6 +207,33 @@ footer p {
   width: 66px;
   height: 66px;
   border-radius: var(--border-radius-small);
+}
+
+/* ABOUT PAGE */
+.img-about-page {
+  height: 400px;
+}
+.button-about {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  position: relative;
+  top: 70px;
+}
+.button-about:hover {
+  background-color: var(--primary-color);
+  border: var(--secondary-color) solid 1px;
+  color: var(--text-color);
+}
+.square-about {
+  border: var(--secondary-color) solid 1px;
+  width: 66px;
+  height: 66px;
+  border-radius: var(--border-radius-small);
+}
+.name-about {
+  align-self: center;
+  margin-left: 20px;
+  line-height: 0.9;
 }
 
 @media (max-width: 1200px) {
