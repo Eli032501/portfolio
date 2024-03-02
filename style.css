@@ -108,6 +108,10 @@ footer p {
 .container-padding-hero {
   padding: 40px;
 }
+.container-padding-about {
+  padding: 30px;
+  padding-left: 70px;
+}
 .hero-right {
   border-radius: var(--border-radius-small);
   height: 260px;
@@ -218,7 +222,7 @@ footer p {
 
 /* ABOUT PAGE */
 .img-about-page {
-  height: 600px;
+  height: 620px;
 }
 .button-about {
   background-color: var(--secondary-color);
