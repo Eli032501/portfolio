@@ -41,6 +41,12 @@ h3 {
   text-transform: capitalize;
   font-size: 32px;
 }
+h4 {
+  color: var(--secondary-color);
+}
+h5 {
+  color: var(--secondary-color);
+}
 footer {
   text-align: center;
   margin: 60px auto 0px;
@@ -95,14 +101,12 @@ footer p {
 .page-hero {
   margin-bottom: 130px;
 }
-.hero-left {
-  padding: 40px 40px 40px 86px;
+.container-outline {
   border-radius: var(--border-radius-small);
   border: var(--secondary-color) solid 1px;
 }
-.subtitle-hero {
-  color: var(--secondary-color);
-  font-size: 28px;
+.container-padding-hero {
+  padding: 40px;
 }
 .hero-right {
   border-radius: var(--border-radius-small);
@@ -118,16 +122,13 @@ footer p {
 }
 .button-template {
   border-radius: var(--border-radius-small);
-  margin-right: 132px;
   font-size: 20px;
   padding: 16px;
   display: block;
 }
 .button-hero {
+  margin-right: 132px;
   color: var(--text-color);
-  position: relative;
-  left: 0;
-  top: 130px;
   background-color: var(--third-color);
 }
 .button-hero:hover {
@@ -146,22 +147,28 @@ footer p {
 .square-bottom {
   position: relative;
   left: 0;
-  top: 262px;
+  top: 68px;
 }
 .square-bottom2 {
   position: relative;
   left: 0;
   top: 194px;
 }
+.square-bottom3 {
+  position: relative;
+  left: 0;
+  top: 262px;
+}
+
 .square-top {
   position: relative;
   left: 0;
   top: -66px;
 }
-.square-top2 {
+.square-btn1 {
   position: relative;
   left: 0;
-  top: 62px;
+  top: -66px;
   border: var(--third-color) solid 1px;
   background: var(--primary-color);
 }
@@ -211,13 +218,13 @@ footer p {
 
 /* ABOUT PAGE */
 .img-about-page {
-  height: 400px;
+  height: 600px;
 }
 .button-about {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   position: relative;
-  top: 70px;
+  top: 133px;
 }
 .button-about:hover {
   background-color: var(--primary-color);
@@ -260,13 +267,14 @@ footer p {
   h3 {
     font-size: 26px;
   }
+
   .links-menu a {
     font-size: 14px;
   }
   .subtitle-hero {
     font-size: 20px;
   }
-  .hero-left {
+  .container-padding-hero {
     padding: 34px;
   }
   .button-hero {
@@ -296,9 +304,12 @@ footer p {
   p {
     font-size: 14px;
   }
+  .page-hero {
+    margin-bottom: 100px;
+  }
   .button-hero {
     margin-right: 0px;
-    top: 38px;
+    margin-top: 70px;
     font-size: 18px;
     padding: 14px;
   }
@@ -325,13 +336,11 @@ footer p {
     text-align: center;
   }
 
-  .hero-left {
+  .container-outline {
     border-end-end-radius: 0;
     border-start-end-radius: 0;
   }
   .button-hero {
-    margin-right: 0px;
-    top: 38px;
     font-size: 16px;
     padding: 12px;
   }
