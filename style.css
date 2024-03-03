@@ -78,6 +78,7 @@ footer p {
 .links-menu a {
   font-size: 16px;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 .links-menu a:hover {
   text-decoration: underline;
@@ -132,6 +133,7 @@ footer p {
   margin-right: 132px;
   color: var(--text-color);
   background-color: var(--third-color);
+  transition: all 150ms ease-in-out;
 }
 .button-hero:hover {
   background-color: var(--primary-color);
@@ -219,26 +221,34 @@ footer p {
 }
 
 /* ABOUT PAGE */
+.height-header-about {
+  height: 133px;
+}
 ul {
   padding-left: 0.8rem;
-  margin-top: 8px;
+  margin-top: 6px;
+  list-style-type: square;
 }
 li {
   margin-bottom: 6px;
 }
+.section2-about {
+  margin: 66px 0px 135px;
+}
 .img-about-page {
-  height: 520px;
+  height: 360px;
 }
 .button-about {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   position: relative;
   top: 68px;
+  transition: all 150ms ease-in-out;
 }
 .button-about:hover {
   background-color: var(--primary-color);
   border: var(--secondary-color) solid 1px;
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 .square-about {
   border: var(--secondary-color) solid 1px;
@@ -249,10 +259,18 @@ li {
 .container-padding-about {
   padding: 30px 100px;
 }
-.container-about2 {
-  padding: 30px 30px 30px 100px;
+
+.container-topic-about {
+  border-radius: var(--border-radius-small);
+  border: var(--secondary-color) solid 1px;
+  padding: 40px 30px 30px;
   margin-right: 66px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 .name-about {
   align-self: center;
   margin-left: 40px;
@@ -309,6 +327,11 @@ li {
     font-size: 16px;
     padding: 14px 0px 14px;
   }
+
+  .container-topic-about {
+    padding: 40px 10px 30px;
+    justify-content: space-around;
+  }
 }
 @media (max-width: 768px) {
   h2 {
@@ -342,6 +365,24 @@ li {
   .text-prj-rt {
     margin: 0 30px 22px 62px;
   }
+  .height-header-about {
+    height: 100px;
+  }
+  .name-about {
+    align-self: end;
+    line-height: 1.3em;
+    margin-left: 0;
+    text-align: center;
+  }
+  .img-about-page {
+    height: 380px;
+  }
+  .container-topic-about {
+    margin-top: 66px;
+  }
+  .container-padding-about {
+    padding: 40px 40px 40px 70px;
+  }
 }
 @media (max-width: 576px) {
   h1 {
@@ -371,7 +412,28 @@ li {
     margin: 0 auto;
     width: 270px;
   }
+
   footer p {
     font-size: 10px;
+  }
+  .height-header-about {
+    height: 80px;
+  }
+  .name-about {
+    line-height: 1.6em;
+  }
+  .section2-about {
+    margin: 0px;
+  }
+  .container-padding-about {
+    padding: 26px 34px 26px;
+  }
+  .container-topic-about {
+    border: none;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .button-about {
+    top: 20px;
   }
 }
