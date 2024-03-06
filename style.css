@@ -64,9 +64,14 @@ footer p {
   padding: 14px 22px;
   align-items: center;
   color: var(--primary-color);
-  background-color: var(--secondary-color);
-  border-radius: var(--border-radius-small);
   text-decoration: none;
+  border-radius: var(--border-radius-small);
+}
+.bgcolor-logo1 {
+  background-color: var(--secondary-color);
+}
+.bgcolor-logo2 {
+  background-color: var(--third-color);
 }
 
 .links-menu {
@@ -105,7 +110,12 @@ footer p {
 }
 .container-outline {
   border-radius: var(--border-radius-small);
+}
+.border-color1 {
   border: var(--secondary-color) solid 1px;
+}
+.border-color2 {
+  border: var(--third-color) solid 1px;
 }
 .container-padding-hero {
   padding: 40px;
@@ -173,7 +183,7 @@ footer p {
   position: relative;
   left: 0;
   top: -66px;
-  border: var(--third-color) solid 1px;
+
   background: var(--primary-color);
 }
 .image-border-right {
@@ -214,7 +224,6 @@ footer p {
 .square-prj {
   position: relative;
   bottom: 68px;
-  border: var(--secondary-color) solid 1px;
   width: 66px;
   height: 66px;
   border-radius: var(--border-radius-small);
@@ -250,12 +259,12 @@ li {
   border: var(--secondary-color) solid 1px;
   color: var(--secondary-color);
 }
-.square-about {
-  border: var(--secondary-color) solid 1px;
+.square-other-pg {
   width: 66px;
   height: 66px;
   border-radius: var(--border-radius-small);
 }
+
 .container-padding-about {
   padding: 30px 100px;
 }
