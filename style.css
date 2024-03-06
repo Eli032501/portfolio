@@ -13,7 +13,10 @@
   font-family: var(--default-font-family);
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 body {
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -32,20 +35,23 @@ h2 {
   text-align: center;
 }
 
-.line-section-top {
+.line-top-c2 {
   border-top: var(--secondary-color) solid 1px;
 }
-.line-section-bottom {
+.line-bottom-c3 {
   border-bottom: var(--third-color) solid 1px;
+}
+.line-top-c3 {
+  border-top: var(--third-color) solid 1px;
 }
 h3 {
   text-transform: capitalize;
   font-size: 32px;
 }
-h4 {
-  color: var(--secondary-color);
+.text-color1 {
+  color: var(--primary-color);
 }
-h5 {
+.text-color2 {
   color: var(--secondary-color);
 }
 footer {
@@ -64,7 +70,7 @@ footer p {
   padding: 14px 22px;
   align-items: center;
   color: var(--primary-color);
-  text-decoration: none;
+
   border-radius: var(--border-radius-small);
 }
 .bgcolor-logo1 {
@@ -82,7 +88,7 @@ footer p {
 }
 .links-menu a {
   font-size: 16px;
-  text-decoration: none;
+
   transition: all 150ms ease-in-out;
 }
 .links-menu a:hover {
@@ -241,8 +247,11 @@ ul {
 li {
   margin-bottom: 6px;
 }
-.section2-about {
+.section-about {
   margin: 66px 0px 135px;
+}
+.section-work {
+  margin: 130px 0px 135px;
 }
 .img-about-page {
   height: 360px;
@@ -284,6 +293,24 @@ li {
   align-self: center;
   margin-left: 40px;
   line-height: 0.9;
+}
+
+/* work  page */
+.card-right-position {
+  position: relative;
+  top: 130px;
+}
+.card-img-work {
+  object-fit: cover;
+  max-height: 330px;
+}
+.card-prj-work {
+  transition: all 150ms ease-in-out;
+}
+.card-prj-work:hover {
+  cursor: pointer;
+  background-color: var(--third-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 1200px) {
