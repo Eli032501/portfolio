@@ -302,8 +302,8 @@ li {
   font-size: 50px;
   padding: 16px 0px;
 }
-.section-work {
-  margin: 130px 0px 135px;
+.gr-projects {
+  margin: 70px 0px 70px;
 }
 .card-right-position {
   position: relative;
@@ -312,6 +312,7 @@ li {
 .card-img-work {
   width: 100%;
   object-fit: cover;
+  object-position: top;
   height: 260px;
 }
 .card-text {
@@ -406,9 +407,6 @@ li {
   .heading-work-pg {
     font-size: 40px;
   }
-  .section-work {
-    margin: 100px 0px 135px;
-  }
 }
 @media (max-width: 768px) {
   h2 {
@@ -460,8 +458,12 @@ li {
   .container-padding-about {
     padding: 40px 40px 40px 70px;
   }
+
   .heading-work-pg {
     font-size: 36px;
+  }
+  .gr-projects {
+    margin-bottom: 0px;
   }
   .card-right-position {
     top: 0;
