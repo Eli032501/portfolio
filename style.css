@@ -357,7 +357,9 @@ li {
   }
 }
 /* CONTACT PAGE */
-
+.main-contact {
+  margin-top: 66px;
+}
 .link-contact {
   width: 134px;
   margin: 0 10px;
@@ -618,7 +620,9 @@ form h2 {
   .card-img-work {
     height: 200px;
   }
-
+  .main-contact {
+    margin-top: 30px;
+  }
   .link-contact {
     margin: 0 8px;
     width: 70px;
