@@ -51,14 +51,13 @@
 
     <main style="margin-top: 66px">
       <h1 class="text-center heading-work-pg">Get in Touch</h1>
-
-      <section class="row g-0 justify-content-center" style="margin: 30px 30px">
+      <section class="row g-0 justify-content-center my-3">
         <a
           href="mailto:epereira2135@gmail.com"
           class="link-contact container-outline border-color1 text-center"
         >
           <i class="fa-solid fa-at icon-contact"></i>
-          <p>email me</p>
+          <p class="d-none d-sm-block">email me</p>
         </a>
 
         <a
@@ -66,7 +65,7 @@
           class="link-contact container-outline border-color1 text-center"
         >
           <i class="fa-brands fa-instagram icon-contact"></i>
-          <p>my insta</p>
+          <p class="d-none d-sm-block">my insta</p>
         </a>
 
         <a
@@ -74,27 +73,31 @@
           class="link-contact container-outline border-color1 text-center"
         >
           <i class="fa-brands fa-linkedin-in icon-contact"></i>
-          <p>my linkedin</p>
+          <p class="d-none d-sm-block">my linkedin</p>
         </a>
       </section>
       <form action="" class="d-flex flex-column">
-        <h4 class="text-color2">Let's Talk</h4>
-        <input
-          type="email"
-          class="container-outline border-color1"
-          id="floatingInput"
-          placeholder=" Enter your email"
-        />
+        <h2 class="">let's talk</h2>
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control container-outline border-color1 form-style"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <textarea
+            class="form-control container-outline border-color1 form-style"
+            placeholder="Leave me a message..."
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea>
+          <label for="floatingTextarea2">Message</label>
+        </div>
 
-        <textarea
-          class="container-outline border-color1"
-          style="min-height: 80px"
-        >
-  Leave me a message...
-        </textarea>
-        <button class="btn-form align-self-end" type="submit">
-          Sent message
-        </button>
+        <button class="btn-form" type="submit">Sent message</button>
       </form>
     </main>
     <footer>

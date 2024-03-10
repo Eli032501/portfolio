@@ -61,6 +61,9 @@ h3 {
 .text-color3 {
   color: var(--third-color);
 }
+p {
+  font-size: 16px;
+}
 footer {
   text-align: center;
   margin: 60px auto 0px;
@@ -354,6 +357,7 @@ li {
   }
 }
 /* CONTACT PAGE */
+
 .link-contact {
   width: 134px;
   margin: 0 10px;
@@ -374,22 +378,25 @@ li {
   }
 }
 form {
-  margin: 50px auto 30px;
+  margin: 66px auto 30px;
   width: 440px;
 }
-input,
-textarea {
+form h2 {
+  font-size: 30px;
+}
+.form-style {
   background: var(--primary-color);
   color: var(--text-color);
-  margin-top: 14px;
+  margin-top: 16px;
 }
 .btn-form {
+  align-self: self-end;
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border: var(--secondary-color) solid 1px;
   border-radius: var(--border-radius-small);
-  padding: 10px 8px;
-  margin-top: 14px;
+  padding: 8px;
+  margin-top: 16px;
   transition: all 150ms ease-in-out;
 }
 .btn-form:hover {
@@ -474,7 +481,8 @@ textarea {
   }
 }
 @media (max-width: 768px) {
-  h2 {
+  h2,
+  form h2 {
     font-size: 26px;
   }
   h3 {
@@ -538,6 +546,18 @@ textarea {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .link-contact {
+    width: 112px;
+  }
+  .icon-contact {
+    font-size: 30px;
+  }
+  form {
+    margin: 50px auto 30px;
+    width: 450px;
+    padding: 0 40px;
+  }
 }
 @media (max-width: 576px) {
   h1 {
@@ -597,5 +617,20 @@ textarea {
 
   .card-img-work {
     height: 200px;
+  }
+
+  .link-contact {
+    margin: 0 8px;
+    width: 70px;
+  }
+  .icon-contact {
+    margin: 16px 0;
+    font-size: 28px;
+  }
+  form {
+    margin: 50px auto 30px;
+    width: unset;
+    max-width: 400px;
+    padding: 0 30px;
   }
 }
