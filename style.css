@@ -78,12 +78,12 @@ p {
 }
 footer {
   text-align: center;
-  margin: 60px auto 0px;
-  padding: 40px 0 0;
+  margin: 30px auto;
   border-top: solid 1px var(--third-color);
 }
 footer p {
   font-size: 12px;
+  margin-top: 16px;
 }
 
 .my-logo {
@@ -269,7 +269,7 @@ li {
   margin-bottom: 6px;
 }
 .section-about {
-  margin: 66px 0px 135px;
+  margin: 66px 0px 80px;
 }
 
 .img-about-page {
@@ -422,6 +422,29 @@ form h2 {
   border: var(--third-color) solid 1px;
   color: var(--text-color);
 }
+
+/* footer  links */
+.link-footer {
+  width: 40px;
+  border-radius: var(--border-radius-small);
+  margin: 0 16px;
+  transition: all 150ms ease-in-out;
+}
+.icon-footer {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 200;
+  color: var(--secondary-color);
+}
+.link-footer:hover {
+  background-color: var(--secondary-color);
+
+  .icon-footer {
+    color: var(--primary-color);
+  }
+}
+
 /* RESPONSIVE  MEDIA */
 @media (max-width: 1200px) {
   h1 {
@@ -547,6 +570,9 @@ form h2 {
   .text-prj-rt {
     margin: 0 30px 22px 62px;
   }
+  .section-about {
+    margin: 66px 0px 130px;
+  }
   .height-header-about {
     height: 100px;
   }
@@ -609,7 +635,7 @@ form h2 {
   }
 
   h5 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .container-outline {
@@ -641,20 +667,24 @@ form h2 {
   }
 
   .section-about {
-    margin: 14px 0px;
+    margin: 14px 0px 66px;
   }
 
   .container-padding-about {
-    padding: 26px 40px;
+    padding: 30px 34px;
   }
   .container-topic-about {
+    flex-direction: column;
     border: none;
+    padding: 10px 0 32px;
     margin-right: 0px;
     margin-top: 0px;
   }
+  .container-topic-about div {
+    margin-top: 26px;
+  }
   .container-padding-about h4 {
     font-size: 20px;
-    text-align: center;
   }
   .button-about {
     top: 20px;
