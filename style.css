@@ -269,11 +269,11 @@ li {
   margin-bottom: 6px;
 }
 .section-about {
-  margin: 66px 0px 80px;
+  margin: 66px 0px 150px;
 }
 
 .img-about-page {
-  height: 360px;
+  height: 266px;
 }
 .button-about {
   background-color: var(--secondary-color);
@@ -457,6 +457,7 @@ form h2 {
   .text-prj-rt {
     margin-left: 100px;
   }
+
   .card-img-work {
     height: 230px;
   }
@@ -502,7 +503,12 @@ form h2 {
     font-size: 16px;
     padding: 14px 0px 14px;
   }
-
+  .section-about {
+    margin-bottom: 100px;
+  }
+  .img-about-page {
+    height: 330px;
+  }
   .container-topic-about {
     padding: 40px 10px 30px;
     justify-content: space-around;
@@ -571,7 +577,7 @@ form h2 {
     margin: 0 30px 22px 62px;
   }
   .section-about {
-    margin: 66px 0px 130px;
+    margin-bottom: 150px;
   }
   .height-header-about {
     height: 100px;
@@ -667,24 +673,22 @@ form h2 {
   }
 
   .section-about {
-    margin: 14px 0px 66px;
+    margin: 14px 0px 60px;
   }
 
   .container-padding-about {
     padding: 30px 34px;
   }
   .container-topic-about {
-    flex-direction: column;
     border: none;
-    padding: 10px 0 32px;
+    padding: 26px 0;
     margin-right: 0px;
     margin-top: 0px;
   }
-  .container-topic-about div {
-    margin-top: 26px;
-  }
+
   .container-padding-about h4 {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .button-about {
     top: 20px;
