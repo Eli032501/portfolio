@@ -135,6 +135,10 @@ footer p {
 .page-hero {
   margin-bottom: 130px;
 }
+.page-hero h2 {
+  font-size: 32px;
+  text-align: left;
+}
 .container-outline {
   border-radius: var(--border-radius-small);
 }
@@ -467,7 +471,10 @@ form h2 {
 }
 @media (max-width: 992px) {
   h1 {
-    font-size: 54px;
+    font-size: 50px;
+  }
+  .page-hero h2 {
+    font-size: 28px;
   }
   h2 {
     font-size: 30px;
@@ -529,6 +536,12 @@ form h2 {
   }
 }
 @media (max-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
+  .page-hero h2 {
+    font-size: 24px;
+  }
   h2,
   form h2 {
     font-size: 26px;
@@ -632,18 +645,31 @@ form h2 {
   }
 }
 @media (max-width: 576px) {
-  h1 {
-    font-size: 34px;
+  h1,
+  .main-contact h1 {
+    font-size: 30px;
   }
-
+  .page-hero h2,
+  form h2 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 24px;
+  }
   h3 {
+    font-size: 20px;
     text-align: center;
   }
 
   h5 {
     font-size: 16px;
   }
-
+  .page-hero {
+    margin-bottom: 70px;
+  }
+  .container-padding-hero {
+    padding: 24px;
+  }
   .container-outline {
     border-end-end-radius: 0;
     border-start-end-radius: 0;
@@ -685,7 +711,9 @@ form h2 {
     margin-right: 0px;
     margin-top: 0px;
   }
-
+  .name-about {
+    line-height: 0.8em;
+  }
   .container-padding-about h4 {
     font-size: 18px;
     text-align: center;
