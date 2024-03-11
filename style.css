@@ -627,7 +627,7 @@ form h2 {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
 
   h3 {
@@ -662,7 +662,7 @@ form h2 {
     font-size: 10px;
   }
   .height-header-about {
-    height: 90px;
+    height: 80px;
     margin-bottom: 20px;
   }
 
